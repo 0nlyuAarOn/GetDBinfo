@@ -77,8 +77,8 @@ def detect_sensitive_data(columns):
     return sensitive_columns
 
 def extract_urls(text):
-    # URL 匹配的正则表达式
-    url_regex = r'(https?://[^\s]+)'
+    # URL匹配正则表达式，支持多种URL scheme
+    url_regex = r'([a-zA-Z][a-zA-Z0-9+.-]*://[^\s]+)'
     urls = re.findall(url_regex, text)
     return urls
 
