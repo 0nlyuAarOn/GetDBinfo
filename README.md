@@ -20,9 +20,9 @@ echo   [*] useage:
 
 echo   	
 
-echo   	python3 GetALLDBinfo.py --file  hqt.sqlite  # 指定文件
+echo   	python3 GetSQLiteinfo.py --file  hqt.sqlite  # 指定文件
 
-echo   	python3 script.py --dir /path/to/directory   #指定目录，批量获取
+echo   	python3 GetSQLiteinfo.py --dir /path/to/directory   #指定目录，批量获取
 
 echo.
 
